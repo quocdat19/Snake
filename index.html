@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="snake.css">
+    <title>Snake1909</title>
+</head>
+
+<body>
+    <h1>Snake1909</h1>
+    <div id="body">
+        <form id="config">
+            <h2> Size game :
+                <select name="Size" id="size">
+                    <option value="100">100 * 100</option>
+                    <option value="200">200 * 200</option>
+                    <option value="300">300 * 300</option>
+                    <option value="500">500 * 500</option>
+                </select>
+            </h2>
+            <h2> Option :
+                <select name="op" id="op">
+                    <option value="1">Classic</option>
+                    <option value="2">deathless</option>
+                </select>
+            </h2>
+            <h2> Speed :
+                <select name="speed" id="speed">
+                    <option value="1">1</option>
+                    <option value="3">3</option>
+                    <option value="5">5</option>
+                    <option value="7">7</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </h2>
+            <input type="button" value="New Game" id="new"/>
+        </form>
+        <canvas width="500px" height="500px" id="screen">Trình duyệt của bạn không hỗ trợ thẻ canvas trong
+            HTML5.</canvas>
+    </div>
+    <script type="text/javascript" src="snake.js">	</script>
+</body>
+
+</html>

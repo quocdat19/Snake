@@ -1,0 +1,27 @@
+body {
+    background-image: url(img/zldaLS.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#body {
+    display: flex;
+    justify-content: left;
+    margin-left: 300px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#body form {
+    display: flex;
+    flex-direction: column;
+}
+
+canvas {
+    border: solid 1px;
+    margin-left: 20px;
+}
